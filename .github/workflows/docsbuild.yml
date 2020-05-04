@@ -20,4 +20,5 @@ jobs:
         pip install sphinx sphinx-rtd-theme
     - name: Build documentation
       run: |
+        cd ./docs
         make html
